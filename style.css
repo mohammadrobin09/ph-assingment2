@@ -51,13 +51,21 @@ header nav ul li{
     width: calc(100% - 170px);
     margin-top: 60px;
     border-radius: 16px;
+    position: relative;
+    
 }
 .banner-text{
     text-align: center;
-    position: relative;
 }
-.banner-text p{
-    margin-top: 200px;
+.banner-text h1{
+    position: relative;
+    top: 160px;
+    color: #FFF; 
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-text h2{
+    margin-top: 180px;
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -72,7 +80,7 @@ header nav ul li{
     background: rgba(255, 255, 255, 0.30);
     width: 745px;
     margin: 0 auto;
-   margin-top: 80px;
+    margin-top: 40px;
 }
 .banner-btn .btn{
     position: relative;
