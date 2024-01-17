@@ -395,3 +395,6 @@ main li{
     transform: translateX(-50%);
     top: 373px;
 }
+.bar{
+    display: none;
+}
