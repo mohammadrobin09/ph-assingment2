@@ -396,5 +396,49 @@ main li{
     top: 373px;
 }
 .bar{
+    position: absolute;
+    left: 90px;
     display: none;
+}
+
+@media (max-width:600px) {
+   .menu{display: none;}
+   header .logo{left: 15px;}
+   .bar{display: block;}
+   .banner-section{width: calc(100% - 40px);}
+   .banner-section h1{top: 32px; font-size: 22px;}
+   .banner-text h2{font-size: 14px; margin-top: 68px;}
+   .banner-btn{flex-direction: column; width: calc(100% - 40px);}
+   main{flex-direction: column; width: calc(100% - 40px);}
+   main h3{font-size: 20px;}
+   main p{font-size: 14px;}
+   main li{font-size: 14px;}
+   .second-side img{width: 100%}
+   .text-section{width: calc(100% - 40px); margin: 0 auto; margin-top: 20px;}
+   .text-section h1{font-size: 20px;}
+   .text-section p{font-size: 14px;}
+   .img-section img{width: 100%;}
+   .text-section-2 h1{font-size: 20px;}
+   .text-section-2 p{font-size: 14px;}
+   .deal-text h1{font-size: 20px;}
+   .deal-text p{font-size: 14px;}
+   .img3rd-section h1{font-size: 20px;}
+   .img3rd-section p{font-size: 14px;}
+   .img1st, .img2st, .img3st{ height: 400px; width: 335px;}
+   .news-section{
+    width: 50px;
+    height: 353px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .email-section {gap: 10px;}
+  .email-section h1 {font-size: 20px;}
+  .email-section p {font-size: 14px;}
+  .in-sec {height: 52px;width: 393px;}
+  .footer-sec{top: 400px;}
+  .f-logo{left: 65px; font-size: 20px;}
+  .icon-sec{top: 350px;}
+  .foot-p{font-size: 14px; top: 430px;}
+  .f-line{top: 390px;}
 }
