@@ -350,3 +350,32 @@ main li{
     font-size: 32px;
     text-align: center;
 }
+.footer-sec{
+    height: 502px;
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;   
+    margin-top: 100px;
+    position: relative;
+}
+.f-logo{
+    position: absolute;
+    display: flex;
+    left: 600px;
+    top: 110px;
+    font-size: 25px;
+}
+.footer-sec p{
+   position: absolute;
+   top: 175px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+.icon-sec{
+   position: absolute;
+   top: 250px;
+   left: 50%;
+   transform: translateX(-50%);
+   display: flex;
+   gap: 24px;
+}
