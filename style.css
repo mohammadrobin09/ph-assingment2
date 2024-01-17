@@ -167,11 +167,12 @@ main li{
 .img-section{
     display: flex;
     gap: 24px;
+    width: calc(100% - 170px);
     margin: 0 auto;
     margin-top: 48px;
-    width: calc(100% - 170px);
     display: flex;
     flex-wrap: wrap;
+    position: relative;
    
 }
 .img-7{
@@ -198,4 +199,104 @@ main li{
     font-size: 16px;  
     font-weight: 400;
     line-height: 26px;
+}
+.img3rd-section{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: calc(100% - 170px);
+    margin: 0 auto;
+    margin-top: 48px;
+}
+.img1st{
+    height: 284px;
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.img2st{
+    height: 284px;
+    width: 573px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.img3st{
+    height: 284px;
+    width: 573px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.img3rd-section img{
+    margin: 32px 0px 0px 32px;
+}
+.img3rd-section h1{
+    margin: 25px 0px 0px 32px;
+    color: #131318;
+    font-size: 24px;
+}
+.img3rd-section p{
+    margin: 20px 0px 0px 32px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.deal-section{
+    display: flex;
+    width: calc(100% - 170px);
+}
+.deal-text{
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.deal-text h1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800; 
+}
+.deal-text p{
+    position: relative;
+    margin-top: 24px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.news-section{
+    display: flex;
+    width: calc(100% - 170px);
+    gap: 24px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 24px;
+}
+.email-section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 422px;
+    width: 474px;
+}
+.email-section h1{
+    color: #131318;
+    font-size: 24px;
+}
+.email-section p{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}
+.in-sec{
+    height: 52px;
+    width: 393px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
 }
