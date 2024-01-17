@@ -287,11 +287,14 @@ main li{
 .email-section h1{
     color: #131318;
     font-size: 24px;
+    margin: 40px 0 0 40px;
 }
 .email-section p{
     color: #5A5A5D;
     font-size: 16px;
     line-height: 26px;
+    margin-left: 40px;
+    margin-bottom: 24px;
 }
 .in-sec{
     height: 52px;
@@ -299,4 +302,51 @@ main li{
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
+    margin-left: 40px;
+    position: relative;
+}
+::placeholder{
+    position: absolute;
+    left: 20px;
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;       
+}
+.news-section button{
+    height: 52px;
+    width: 393px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    border: none;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.line-sec{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.email-img{position: relative;}
+.dis-sec{
+    position: absolute;
+    bottom: 50px;
+    right: 6px;
+    border-radius: 16px;
+    background: #FF5400;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+}
+.dis-sec p{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px; 
+    margin: 15px;  
+}
+.dis-sec h1{
+    color: #FFF;
+    font-size: 32px;
+    text-align: center;
 }
